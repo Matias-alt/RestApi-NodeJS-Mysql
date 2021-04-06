@@ -1,5 +1,5 @@
-# RestApi 
-Rest api desarrollada en Node.js, teniendo como elementos un servidor express y acceso a distintos endpoints que apuntan a la base de datos BSALE
+# Description
+Rest api developed in Node.js, having as elements an express server and access to different endpoints that point to the BSALE database
 
 # EndPoints
 
@@ -17,9 +17,4 @@ Rest api desarrollada en Node.js, teniendo como elementos un servidor express y 
 5- /products_byname/:nameCat
     ej: /products_byname/energetica
     
-diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
