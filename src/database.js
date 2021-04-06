@@ -1,3 +1,5 @@
+//Database connection
+
 const mysql = require('mysql');
 
 const mysqlConnection = mysql.createConnection({
@@ -9,10 +11,10 @@ const mysqlConnection = mysql.createConnection({
 
 mysqlConnection.connect((err)=>{
     if(err){
-        console.log("Error al conectarse a base de datos: ", err);
+        console.log("Error connecting to database: ", err);
     }
     else{
-        console.log("Conexion a la base de datos exitosa");
+        console.log("Database connection successful");
     }
 });
 
