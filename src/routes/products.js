@@ -4,6 +4,7 @@ const router = express.Router();
 const mysqlConnection = require('../database');
 
 router.get('/products', (req, res) =>{
+
     mysqlConnection.query('SELECT * FROM bsale_test.product', (err, rows, fields) =>{
         
         if(!err){
@@ -15,11 +16,14 @@ router.get('/products', (req, res) =>{
     });
 });
 
-router.get('/products/:id', (req, res) =>{
 
-    const { id } = req.params;
+router.get('/products/:num1/:num2', (req, res) =>{
 
-    mysqlConnection.query('SELECT * FROM bsale_test.product WHERE id = ?', [id], (err, rows, fields) =>{
+    const { num1, num2 } = req.params;
+    const init = parseInt(num1, 10);
+    const limit = parseInt(num2, 10);
+
+    mysqlConnection.query('SELECT * FROM bsale_test.product LIMIT ?,?', [init, limit], (err, rows, fields) =>{
         
         if(!err){
             res.json(rows);
@@ -29,6 +33,8 @@ router.get('/products/:id', (req, res) =>{
         }          
     });
 });
+
+
 
 router.get('/products_bycategory/:category', (req, res) =>{
 
@@ -45,6 +51,23 @@ router.get('/products_bycategory/:category', (req, res) =>{
     });
     
 });
+
+router.get('/products_byname/:nameCat', (req, res) =>{
+
+    const { nameCat } = req.params;
+
+    mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ?", [nameCat+'%'], (err, rows, fields) =>{
+        
+        if(!err){
+            res.json(rows);
+        }
+        else{
+            console.log("Error query: ", err);
+        }          
+    });
+    
+});
+
 
 
 module.exports = router;

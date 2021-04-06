@@ -1,5 +1,9 @@
 const express = require('express');
 const app = express();
+var cors = require('cors');
+
+// use it before all route definitions
+app.use(cors({origin: 'http://127.0.0.1:5500'}));
 
 //Settings
 app.set('port', process.env.PORT || 3000);
