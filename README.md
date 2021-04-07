@@ -1,5 +1,7 @@
 # Description
-Rest api developed in Node.js, having as elements an express server and access to different endpoints that point to the BSALE database
+try this api -> https://restapi-nodejs-msql.herokuapp.com/products
+
+Rest api developed in Node.js, having as elements an express server and access to different endpoints that point to the BSALE database. This rest api is deployed in Heroku
 
 # EndPoints
 
