@@ -3,7 +3,7 @@ const app = express();
 var cors = require('cors');
 
 //Cors
-app.use(cors({origin: 'http://127.0.0.1:5500'}));
+app.use(cors({origin: 'https://gallant-villani-227bfe.netlify.app'}));
 
 //Settings
 app.set('port', process.env.PORT || 3000);
