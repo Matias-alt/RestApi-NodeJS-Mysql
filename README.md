@@ -3,18 +3,18 @@ Rest api developed in Node.js, having as elements an express server and access t
 
 # EndPoints
 
-1- /products
-this endpoint will bring all the products from the database
+1- /products <br/>
+this endpoint will bring all the products from the database 
 
-2- /products_bycategory/:category | ***ej: /products_bycategory/4***
+2- /products_bycategory/:category | ***ej: /products_bycategory/4*** <br/>
 This endpoint will bring all the products filtered by category. the parameter must be between 1 and 7
     
-3- /products_byname/:nameCat | ***ej: /products_byname/energetica***
+3- /products_byname/:nameCat | ***ej: /products_byname/energetica*** <br/>
 this endpoint will bring all the products filtered by product name
 
 
 
-the following endpoints bring the products the same as the previous endpoints, but with a product limiter
+the following endpoints bring the products the same as the previous endpoints, but with a product limiter <br/>
 
 4- /products/:num1/:num2 | ***ej: /products/0/8***
     
