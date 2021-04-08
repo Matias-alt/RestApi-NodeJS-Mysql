@@ -37,7 +37,7 @@ router.get('/products_byname/:nameCat', (req, res) =>{
 
     const { nameCat } = req.params;
 
-    mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ?", [nameCat+'%'], (err, rows) =>{
+    mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ?", ['%'+nameCat+'%'], (err, rows) =>{
         
         if(!err){
             res.json(rows);
@@ -93,7 +93,7 @@ router.get('/products_byname/:nameCat/:num1/:num2', (req, res) =>{
     const init = parseInt(num1, 10);
     const limit = parseInt(num2, 10);
 
-    mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ? LIMIT ?,?", [nameCat+'%', init, limit], (err, rows) =>{
+    mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ? LIMIT ?,?", ['%'+nameCat+'%', init, limit], (err, rows) =>{
         
         if(!err){
             res.json(rows);
