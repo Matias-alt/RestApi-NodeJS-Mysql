@@ -3,9 +3,9 @@ Prueba la api rest -> https://restapi-nodejs-msql.herokuapp.com/products
 
 # Description
 
-Esta rest api fue desarrollada en Node.JS version v14.15.4, opte por elegir este entorno de desarrollo ya que tenia cierta experiencia, ademas de ser relativamente sencillo de desarrollar. Para montar el servidor que se encargara de recibir las peticiones http, se utilizó "express" en su version 4.17.1. Para realizar la conexion a la base de datos
-BSALE se utilizo el modulo "mysql" en su version 2.18.1. La conexion a la base de datos se encuentra en el archivo database.js que posteriormente es exportada para ser utilizada 
-en los distintos endpoints. Tambien se utilizo el modulo "cors" en su verison 2.8.5 para permitir el acceso al origen indicado, en este caso, la aplicacion cliente que consume esta rest api https://gallant-villani-227bfe.netlify.app/. Por ultimo se utilizo una dependencia de desarrollo, "nodemon" en su version 2.0.7, permitiendo recargar el servidor de forma inmediata, de esta manera se agilizo bastante el desarrollo.
+Esta rest api fue desarrollada en Node.JS version v14.15.4, opte por elegir este entorno de desarrollo ya que tenia cierta experiencia, ademas de ser relativamente sencillo de desarrollar. Para montar el servidor que se encargara de recibir las peticiones http, se utilizó ***"express"*** en su version 4.17.1. Para realizar la conexion a la base de datos
+BSALE se utilizo el modulo ***"mysql"*** en su version 2.18.1. La conexion a la base de datos se encuentra en el archivo database.js que posteriormente es exportada para ser utilizada 
+en los distintos endpoints. Tambien se utilizo el modulo ***"cors"*** en su verison 2.8.5 para permitir el acceso al origen indicado, en este caso, la aplicacion cliente que consume esta rest api https://gallant-villani-227bfe.netlify.app/. Por ultimo se utilizo una dependencia de desarrollo, ***"nodemon"*** en su version 2.0.7, permitiendo recargar el servidor de forma inmediata, de esta manera se agilizo bastante el desarrollo.
 
 En el archivo index.js se definen unas secciones basicas para el correcto funcionamiento, tales como Cors, Settings, Middleware Y Routes
 
