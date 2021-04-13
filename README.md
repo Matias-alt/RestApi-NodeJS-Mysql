@@ -20,7 +20,7 @@ este endpoint trae todos los registros de la tabla products
 ***2- /products_bycategory/:category | ej: /products_bycategory/4*** <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7
     
-***3- /products_byname/:nameCat | ***ej: /products_byname/energetica*** <br/>
+***3- /products_byname/:nameCat | ej: /products_byname/energetica*** <br/>
 este endpoint traerá todos los productos filtrados por nombre de producto
 
 
