@@ -12,6 +12,8 @@ En el archivo index.js se definen unas secciones basicas para el correcto funcio
 Al comienzo se define una variable app que requiere y ejecuta las funcionalidades de "express", esta variable sera utilizada a lo largo de todo el flujo de la rest api.
 Luego, en la seccion ***"Cors"*** se especifica la url a la cual se le dara acceso para ocupar las funcionalidades de los diversos endpoints. En la seccion ***"Settings"*** se define el puerto en donde estara escuchando el servidor express, de manera predeterminada se utilizo el puerto 3000. En la seccion ***"Middlewares"*** se le da la opcion al servidor express de ocupar el formato json para enviar y recibir datos. Finalmente en la seccion ***"Routes"***, se llama al archivo Routes/products.js que contiene los diversos endpoints definidos en esta rest api.
 
+Las rutas tienen la capacidad de identificar si los parametros ingresados en algun endpoint especifico, es correcto o no. Por ejemplo el endpoint n°2 recibe como parametro un numero del 1 al 7, que corresponde al id de categoria a buscar. Si el parametro ingresado no esta en este rango de numeros o se ingresa una palabra, aparecera un mensaje en la consola que indica el error especifico. Me gustaria hacer una observacion con el feedback entregado, en donde se señala que no se estaba cumpliendo con la inyeccion SQL. Segun informacion que pude encontrar, al utilizar valores incognitos ("?") en la consulta SQL, se evita la inyeccion SQL. Esto es lo que pude investigar y probar por mi cuenta, obviamente lo digo desde mi ignoracia en este tema en particular, ustedes como equipo tecnico son los que saben mucho mas sobre esto.
+
 # EndPoints
 
 ***1- /products*** <br/>
@@ -31,6 +33,9 @@ los siguientes endpoints realizan las mismas acciones que los endpoint anteriore
 ***5- /products_bycategory/:category/:num1/:num2 | ej: /products_bycategory/:category/0/8***
 
 ***6- /products_byname/:nameCat/:num1/:num2 | ej: /products_byname/:nameCat/0/8***
+
+
+
     
 
     
