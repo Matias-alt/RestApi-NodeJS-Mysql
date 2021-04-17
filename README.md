@@ -76,6 +76,21 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 ## 3- /products_byname/:nameCat | ej: /products_byname/energetica <br/>
 este endpoint traerá todos los productos filtrados por nombre de producto
 
+[<br/>
+&nbsp;{<br/>
+&nbsp;&nbsp;&nbsp;id: 87,<br/>
+&nbsp;&nbsp;&nbsp;name: "PISCO MISTRAL 35°",<br/>
+&nbsp;&nbsp;&nbsp;url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/358978.jpg",<br/>
+&nbsp;&nbsp;&nbsp;price: 4990,<br/>
+&nbsp;&nbsp;&nbsp;discount: 0,<br/>
+&nbsp;&nbsp;&nbsp;category: 2<br/>
+&nbsp;},<br/>
+
+&nbsp;.........<br/>
+]
+
+
+
 
 los siguientes endpoints realizan las mismas acciones que los endpoint anteriores, pero en este caso, se le agregan nuevos parametros que iran como valor de la clausula LIMIT del lenguaje SQL. Estos valoren son de suma importancia para que la aplicacion cliente pueda crear el paginador de productos de manera dinamica. <br/>
 
