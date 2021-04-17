@@ -51,34 +51,7 @@ este endpoint trae todos los registros de la tabla products
 ## 2- /products_bycategory/:category <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
 
-<div class="text-blue mb-2">
-  .text-blue on white
-</div>
-<div class="text-gray-dark mb-2">
-  .text-gray-dark on white
-</div>
-<div class="text-gray mb-2">
-  .text-gray on white
-</div>
-<div class="text-red mb-2">
-  .text-red on white
-</div>
-<div class="text-orange mb-2">
-  .text-orange on white
-</div>
-<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
-<div class="text-orange-light mb-2">
-  .text-orange-light on white
-</div>
-<span class="float-left text-red tooltipped tooltipped-n" aria-label="Does not meet accessibility standards"><%= octicon("alert") %></span>
-<div class="text-green mb-2 ml-4">
-  .text-green on white
-</div>
-<div class="text-purple mb-2">
-  .text-purple on white
-</div>
-
-- categoría 1 :  energetica 
+- categoría 1 : energetica 
 - categoría 2 : pisco 
 - categoría 3 : ron 
 - categoría 4 : bebida  
@@ -86,8 +59,7 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 - categoría 6 : cerveza 
 - categoría 7 : vodka 
 
-
-ej: /products_bycategory/5 <br/>
+**ej: /products_bycategory/5 <br/>**
 
 [<br/>
 &nbsp;{<br/>
