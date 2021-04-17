@@ -56,13 +56,13 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 ```
 
 ```diff 
-- categoría 1 : @@ energetica @@ 
+@@ - categoría 1 :  energetica 
 - categoría 2 : pisco <br/>
 - categoría 3 : ron <br/>
 - categoría 4 : bebida <br/>
 - categoría 5 : snack <br/>
 - categoría 6 : cerveza <br/>
-- categoría 7 : vodka <br/>
+- categoría 7 : vodka <br/> @@ 
 ```
 
 ej: /products_bycategory/5 <br/>
