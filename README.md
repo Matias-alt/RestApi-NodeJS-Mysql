@@ -66,16 +66,17 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 ```
 **ej: /products_bycategory/5 <br/>**
 
-[<br/>
-{<br/>
-id: 47,<br/>
-name: "Maní salado",<br/>
-url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/manisaladomp4415.jpg",<br/>
-price: 600,<br/>
-discount: 0,<br/>
-category: 5<br/>
-}, <br/>
- ....... <br/>
+[
+  {
+      id: 47,
+      name: "Maní salado"
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/manisaladomp4415.jpg",
+      price: 600,
+      discount: 0,
+      category: 5
+  }, 
+  
+  ....... 
 ]
 ```
 
