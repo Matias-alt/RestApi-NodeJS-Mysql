@@ -19,15 +19,13 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 ***1- /products*** <br/>
 este endpoint trae todos los registros de la tabla products
 
-![image](https://user-images.githubusercontent.com/64926462/115120115-c2068b00-9f79-11eb-91c7-e0564106690d.png)
-
-{
-    id: 7,
-    name: "ENERGETICA SCORE",
-    url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",
-    price: 1290,
-    discount: 0,
-    category: 1
+{<br/>
+    id: 7,<br/>
+    name: "ENERGETICA SCORE",<br/>
+    url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",<br/>
+    price: 1290,<br/>
+    discount: 0,<br/>
+    category: 1<br/>
 }
 
 ***2- /products_bycategory/:category | ej: /products_bycategory/4*** <br/>
