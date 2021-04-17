@@ -1,6 +1,15 @@
 # Rest Api BSALE
 Prueba la api rest -> https://restapi-nodejs-msql.herokuapp.com/products
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
+
 # Description
 
 Esta rest api fue desarrollada en Node.JS version v14.15.4, opte por elegir este entorno de desarrollo ya que tenia cierta experiencia, ademas de ser relativamente sencillo de desarrollar. Para montar el servidor que se encargara de recibir las peticiones http, se utilizó ***"express"*** en su version 4.17.1. Para realizar la conexion a la base de datos
