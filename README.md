@@ -19,6 +19,7 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 ## 1- /products <br/>
 este endpoint trae todos los registros de la tabla products
 
+```
 [<br/>
 &nbsp; {<br/>
 &nbsp;&nbsp;&nbsp;   id: 7,<br/>
@@ -47,6 +48,7 @@ este endpoint trae todos los registros de la tabla products
 
 &nbsp;........<br/>
 ]
+```
 
 ## 2- /products_bycategory/:category <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
@@ -61,6 +63,7 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 - categoría 7 : vodka 
 ```
 
+```
 **ej: /products_bycategory/5 <br/>**
 
 [<br/>
@@ -74,10 +77,12 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 &nbsp;}, <br/>
 &nbsp; ....... <br/>
 ]
-    
+```
+
 ## 3- /products_byname/:nameCat | ej: /products_byname/energetica <br/>
 este endpoint traerá todos los productos filtrados por nombre de producto
 
+```
 [<br/>
 &nbsp;{<br/>
 &nbsp;&nbsp;&nbsp;id: 87,<br/>
@@ -90,6 +95,7 @@ este endpoint traerá todos los productos filtrados por nombre de producto
 
 &nbsp;.........<br/>
 ]
+```
 
 
 
