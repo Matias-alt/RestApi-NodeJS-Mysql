@@ -52,17 +52,17 @@ este endpoint trae todos los registros de la tabla products
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
 
 ```diff 
- - categoría 1 : @@ energetica @@ 
+ @@  - categoría 1 : energetica @@ 
 ```
 
 ```diff 
-- categoría 1 :  energetica 
-- categoría 2 : pisco <br/>
-- categoría 3 : ron <br/>
-- categoría 4 : bebida <br/>
-- categoría 5 : snack <br/>
-- categoría 6 : cerveza <br/>
-- categoría 7 : vodka <br/> 
+@@ - categoría 1 :  energetica @@
+@@ - categoría 2 : pisco @@
+@@ - categoría 3 : ron @@
+@@ - categoría 4 : bebida @@ 
+@@ - categoría 5 : snack @@
+@@ - categoría 6 : cerveza @@
+@@ - categoría 7 : vodka @@
 ```
 
 ej: /products_bycategory/5 <br/>
