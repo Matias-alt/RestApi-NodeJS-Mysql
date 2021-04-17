@@ -34,6 +34,8 @@ los siguientes endpoints realizan las mismas acciones que los endpoint anteriore
 
 ***6- /products_byname/:nameCat/:num1/:num2 | ej: /products_byname/:nameCat/0/8***
 
+![image](https://user-images.githubusercontent.com/64926462/115120021-312faf80-9f79-11eb-8ed1-ca2e4429da20.png)
+
 
 
     
