@@ -52,7 +52,7 @@ este endpoint trae todos los registros de la tabla products
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
 
 ```diff 
- @@  - categoría 1 : energetica @@ 
+ @@ energetica @@ 
 ```
 
 ```diff 
