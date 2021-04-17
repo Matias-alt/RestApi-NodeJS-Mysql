@@ -56,7 +56,7 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 ```
 
 ```
-- categoría 1 : energetica <br/>
+- categoría 1 : @@ energetica @@ 
 - categoría 2 : pisco <br/>
 - categoría 3 : ron <br/>
 - categoría 4 : bebida <br/>
