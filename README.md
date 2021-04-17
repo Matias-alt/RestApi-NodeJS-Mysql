@@ -20,12 +20,12 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 este endpoint trae todos los registros de la tabla products
 
 {<br/>
-&nbsp;    id: 7,<br/>
- &nbsp;   name: "ENERGETICA SCORE",<br/>
- &nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",<br/>
- &nbsp;   price: 1290,<br/>
-    discount: 0,<br/>
-    category: 1<br/>
+&nbsp;&nbsp;&nbsp;   id: 7,<br/>
+&nbsp;&nbsp;&nbsp;   name: "ENERGETICA SCORE",<br/>
+&nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",<br/>
+&nbsp;&nbsp;&nbsp;   price: 1290,<br/>
+&nbsp;&nbsp;&nbsp;   discount: 0,<br/>
+&nbsp;&nbsp;&nbsp;   category: 1<br/>
 }
 
 ***2- /products_bycategory/:category | ej: /products_bycategory/4*** <br/>
