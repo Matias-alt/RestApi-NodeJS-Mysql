@@ -19,14 +19,34 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 ***1- /products*** <br/>
 este endpoint trae todos los registros de la tabla products
 
-{<br/>
+[<br/>
+&nbsp; {<br/>
 &nbsp;&nbsp;&nbsp;   id: 7,<br/>
 &nbsp;&nbsp;&nbsp;   name: "ENERGETICA SCORE",<br/>
 &nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",<br/>
 &nbsp;&nbsp;&nbsp;   price: 1290,<br/>
 &nbsp;&nbsp;&nbsp;   discount: 0,<br/>
 &nbsp;&nbsp;&nbsp;   category: 1<br/>
-}
+&nbsp; }<br/>
+
+&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;   id: 6,
+&nbsp;&nbsp;&nbsp;   name: "ENERGETICA RED BULL",
+&nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/redbull8381.jpg",
+&nbsp;&nbsp;&nbsp;   price: 1490,
+&nbsp;&nbsp;&nbsp;   discount: 0,
+&nbsp;&nbsp;&nbsp;   category: 1
+&nbsp; },<br/>
+
+&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;   id: 7,
+&nbsp;&nbsp;&nbsp;   name: "ENERGETICA SCORE",
+&nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",
+&nbsp;&nbsp;&nbsp;   price: 1290,
+&nbsp;&nbsp;&nbsp;   discount: 0,
+&nbsp;&nbsp;&nbsp;   category: 1
+&nbsp; },<br/>
+]
 
 ***2- /products_bycategory/:category | ej: /products_bycategory/4*** <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7
