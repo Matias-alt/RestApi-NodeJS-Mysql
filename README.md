@@ -28,7 +28,6 @@ este endpoint trae todos los registros de la tabla products
 &nbsp;&nbsp;&nbsp;   discount: 0,<br/>
 &nbsp;&nbsp;&nbsp;   category: 1<br/>
 &nbsp; }<br/>
-
 &nbsp; {<br/>
 &nbsp;&nbsp;&nbsp;   id: 6,<br/>
 &nbsp;&nbsp;&nbsp;   name: "ENERGETICA RED BULL",<br/>
@@ -37,7 +36,6 @@ este endpoint trae todos los registros de la tabla products
 &nbsp;&nbsp;&nbsp;   discount: 0,<br/>
 &nbsp;&nbsp;&nbsp;   category: 1<br/>
 &nbsp; },<br/>
-
 &nbsp; {<br/>
 &nbsp;&nbsp;&nbsp;   id: 7,<br/>
 &nbsp;&nbsp;&nbsp;   name: "ENERGETICA SCORE",<br/>
@@ -47,7 +45,7 @@ este endpoint trae todos los registros de la tabla products
 &nbsp;&nbsp;&nbsp;   category: 1<br/>
 &nbsp; },<br/>
 
-&nbsp;........
+&nbsp;........<br/>
 ]
 
 ***2- /products_bycategory/:category | ej: /products_bycategory/4*** <br/>
