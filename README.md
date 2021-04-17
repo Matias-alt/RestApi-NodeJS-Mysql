@@ -16,14 +16,7 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 
 # EndPoints
 
-```html
-<h2>1- /products</h2> <br/>
-```
-
-
-
-
-***1- /products*** <br/>
+## 1- /products <br/>
 este endpoint trae todos los registros de la tabla products
 
 [<br/>
