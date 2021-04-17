@@ -48,7 +48,7 @@ este endpoint trae todos los registros de la tabla products
 &nbsp;........<br/>
 ]
 
-***2- /products_bycategory/:category ***<br/>
+## 2- /products_bycategory/:category <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
 
 - categoría 1 : energetica <br/>
@@ -73,17 +73,17 @@ ej: /products_bycategory/5 <br/>
 &nbsp; ....... <br/>
 ]
     
-***3- /products_byname/:nameCat | ej: /products_byname/energetica*** <br/>
+## 3- /products_byname/:nameCat | ej: /products_byname/energetica <br/>
 este endpoint traerá todos los productos filtrados por nombre de producto
 
 
 los siguientes endpoints realizan las mismas acciones que los endpoint anteriores, pero en este caso, se le agregan nuevos parametros que iran como valor de la clausula LIMIT del lenguaje SQL. Estos valoren son de suma importancia para que la aplicacion cliente pueda crear el paginador de productos de manera dinamica. <br/>
 
-***4- /products/:num1/:num2 | ej: /products/0/8***
+## 4- /products/:num1/:num2 | ej: /products/0/8
     
-***5- /products_bycategory/:category/:num1/:num2 | ej: /products_bycategory/:category/0/8***
+## 5- /products_bycategory/:category/:num1/:num2 | ej: /products_bycategory/:category/0/8
 
-***6- /products_byname/:nameCat/:num1/:num2 | ej: /products_byname/:nameCat/0/8***
+## 6- /products_byname/:nameCat/:num1/:num2 | ej: /products_byname/:nameCat/0/8
 
 
 
