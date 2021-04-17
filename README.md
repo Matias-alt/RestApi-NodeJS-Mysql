@@ -63,9 +63,9 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 - categoría 7 : vodka 
 ```
 
-```
-**ej: /products_bycategory/5 <br/>**
 
+### ej: /products_bycategory/5
+```
 [
   {
       id: 47,
