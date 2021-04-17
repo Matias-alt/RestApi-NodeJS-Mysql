@@ -51,7 +51,9 @@ este endpoint trae todos los registros de la tabla products
 ## 2- /products_bycategory/:category <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
 
-```diff @@ energetica (and bold)@@ ```
+```diff 
+@@ energetica (and bold)@@ 
+```
 
 - categoría 1 : energetica <br/>
 - categoría 2 : pisco <br/>
