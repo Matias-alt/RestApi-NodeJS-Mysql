@@ -122,7 +122,8 @@ OUTPUT:
 ]
 ```
 
-
+<br/>
+<br/>
 los siguientes endpoints realizan las mismas acciones que los endpoint anteriores, pero en este caso, se le agregan nuevos parametros que iran como valor de la clausula LIMIT del lenguaje SQL. Estos valoren son importantes para que la aplicacion cliente pueda crear el paginador de productos de manera dinamica. <br/>
 
 ## 4- /products/:num1/:num2 
