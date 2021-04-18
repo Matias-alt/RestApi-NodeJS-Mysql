@@ -129,14 +129,19 @@ los siguientes endpoints realizan las mismas acciones que los endpoint anteriore
 ## 4- /products/:num1/:num2 
 Si quisieras buscar todos los productos pero con un limite de 15 productos, partiendo desde el primer prodcuto encontrado, el endpoint quedaria de la siguiente forma
 #### ej: /products/0/15 
+
 <br/>
+
 ## 5- /products_bycategory/:category/:num1/:num2
 Si quisieras buscar todos los productos de la categoria 2 (pisco), con un limite de 8 productos, partiendo desde el tercer producto, el endpoint quedaria de la siguiente forma
 #### ej: /products_bycategory/2/3/8
+
 <br/>
+
 ## 6- /products_byname/:nameCat/:num1/:num2 
 Si quisieras buscar todos los productos que contengan en su nombre la palabra "sprite", con un limite de 2 productos, partiendo desde el primer producto, el endpoint quedaria de la siguiente forma
 #### ej: /products_byname/sprite/0/2
+
 <br/>
 
 
