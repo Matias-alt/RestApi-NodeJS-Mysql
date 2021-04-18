@@ -131,7 +131,11 @@ los siguientes endpoints realizan las mismas acciones que los endpoint anteriore
 
 ## 6- /products_byname/:nameCat/:num1/:num2 
 
-Por ejemplo, si quisieras buscar todos los productos pero con un limite de 15 productos, partiendo desde el primer prodcuto encontrado, el endpoint quedaria de la siguiente forma: ### ej: /products/0/15
+Por ejemplo, si quisieras buscar todos los productos pero con un limite de 15 productos, partiendo desde el primer prodcuto encontrado, el endpoint quedaria de la siguiente forma: 
+### ej: /products/0/15
+
+Si quisieras buscar todos los productos con un limite de 8 productos, partiendo desde el tercer producto, el endpoint quedaria de la siguiente forma:
+### ej: /products/3/8
 
 
 
