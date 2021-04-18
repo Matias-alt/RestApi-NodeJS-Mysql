@@ -19,7 +19,36 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 ## 1- /products <br/>
 este endpoint trae todos los registros de la tabla products
 
-![image](https://user-images.githubusercontent.com/64926462/115152871-03ae3900-a041-11eb-9ed8-30669bf6546f.png)
+```
+[
+   {
+      id: 5,
+      name: "ENERGETICA MR BIG",
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/misterbig3308256.jpg",
+      price: 1490,
+      discount: 20,
+      category: 1
+  },
+  {
+      id: 6,
+      name: "ENERGETICA RED BULL",
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/redbull8381.jpg",
+      price: 1490,
+      discount: 0,
+      category: 1
+  },
+  {
+      id: 7,
+      name: "ENERGETICA SCORE",
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",
+      price: 1290,
+      discount: 0,
+      category: 1
+  },
+  
+  ....... 
+]
+```
 
 
 [<br/>
