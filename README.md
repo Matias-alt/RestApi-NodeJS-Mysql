@@ -19,6 +19,8 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 ## 1- /products <br/>
 este endpoint trae todos los registros de la tabla products
 
+![image](https://user-images.githubusercontent.com/64926462/115152871-03ae3900-a041-11eb-9ed8-30669bf6546f.png)
+
 
 [<br/>
 &nbsp; {<br/>
