@@ -20,6 +20,8 @@ Las rutas tienen la capacidad de identificar si los parametros ingresados en alg
 este endpoint trae todos los registros de la tabla products
 
 ```
+OUTPUT:
+
 [
    {
       id: 5,
@@ -50,37 +52,6 @@ este endpoint trae todos los registros de la tabla products
 ]
 ```
 
-
-[<br/>
-&nbsp; {<br/>
-&nbsp;&nbsp;&nbsp;   id: 7,<br/>
-&nbsp;&nbsp;&nbsp;   name: "ENERGETICA SCORE",<br/>
-&nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",<br/>
-&nbsp;&nbsp;&nbsp;   price: 1290,<br/>
-&nbsp;&nbsp;&nbsp;   discount: 0,<br/>
-&nbsp;&nbsp;&nbsp;   category: 1<br/>
-&nbsp; }<br/>
-&nbsp; {<br/>
-&nbsp;&nbsp;&nbsp;   id: 6,<br/>
-&nbsp;&nbsp;&nbsp;   name: "ENERGETICA RED BULL",<br/>
-&nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/redbull8381.jpg",<br/>
-&nbsp;&nbsp;&nbsp;   price: 1490,<br/>
-&nbsp;&nbsp;&nbsp;   discount: 0,<br/>
-&nbsp;&nbsp;&nbsp;   category: 1<br/>
-&nbsp; },<br/>
-&nbsp; {<br/>
-&nbsp;&nbsp;&nbsp;   id: 7,<br/>
-&nbsp;&nbsp;&nbsp;   name: "ENERGETICA SCORE",<br/>
-&nbsp;&nbsp;&nbsp;   url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/logo7698.png",<br/>
-&nbsp;&nbsp;&nbsp;   price: 1290,<br/>
-&nbsp;&nbsp;&nbsp;   discount: 0,<br/>
-&nbsp;&nbsp;&nbsp;   category: 1<br/>
-&nbsp; },<br/>
-
-&nbsp;........<br/>
-]
-
-
 ## 2- /products_bycategory/:category <br/>
 Este endpoint trae todos los productos filtrados por categoría. el parámetro debe estar entre 1 y 7 <br/>
 
@@ -97,6 +68,8 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 
 ### ej: /products_bycategory/5
 ```
+OUTPUT:
+
 [
   {
       id: 47,
@@ -112,22 +85,44 @@ Este endpoint trae todos los productos filtrados por categoría. el parámetro d
 ```
 
 
-## 3- /products_byname/:nameCat | ej: /products_byname/energetica <br/>
+## 3- /products_byname/:nameCat 
 este endpoint traerá todos los productos filtrados por nombre de producto
 
+### ej: /products_byname/energetica
 
-[<br/>
-&nbsp;{<br/>
-&nbsp;&nbsp;&nbsp;id: 87,<br/>
-&nbsp;&nbsp;&nbsp;name: "PISCO MISTRAL 35°",<br/>
-&nbsp;&nbsp;&nbsp;url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/358978.jpg",<br/>
-&nbsp;&nbsp;&nbsp;price: 4990,<br/>
-&nbsp;&nbsp;&nbsp;discount: 0,<br/>
-&nbsp;&nbsp;&nbsp;category: 2<br/>
-&nbsp;},<br/>
 
-&nbsp;.........<br/>
+```
+OUTPUT:
+
+[
+   {
+      id: 19,
+      name: "PISCO MISTRAL 35º",
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/mistral359200.jpg",
+      price: 4990,
+      discount: 20,
+      category: 2
+   },
+   {
+      id: 20,
+      name: "PISCO MISTRAL 40º ",
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/mistral409215.jpg",
+      price: 4990,
+      discount: 20,
+      category: 2
+   },
+   {
+      id: 87,
+      name: "PISCO MISTRAL 35°",
+      url_image: "https://dojiw2m9tvv09.cloudfront.net/11132/product/358978.jpg",
+      price: 4990,
+      discount: 0,
+      category: 2
+   },
+  
+  ....... 
 ]
+```
 
 
 
