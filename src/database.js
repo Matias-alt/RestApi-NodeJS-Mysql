@@ -1,7 +1,13 @@
-//Database connection
+/*
+==============================
+|   CONEXION BASE DE DATOS   |
+==============================
+*/
 
+//Se utiliza el modulo 'sql'
 const mysql = require('mysql');
 
+//Definicion de los parametros correspondiente a la base de datos BSALE
 const mysqlConnection = mysql.createConnection({
     host: 'mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com',
     user: 'bsale_test',

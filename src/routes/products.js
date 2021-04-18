@@ -2,10 +2,12 @@ const express = require('express');
 const router = express.Router();
 const mysqlConnection = require('../database');
 
-//routes definition
+//Definicion de rutas
 router.get('/products', (req, res) =>{
 
-    mysqlConnection.query('SELECT * FROM bsale_test.product', (err, rows) =>{
+    let query = 'SELECT * FROM bsale_test.product'
+
+    mysqlConnection.query(query, (err, rows) =>{
         
         if(!err){
             res.json(rows);
@@ -22,7 +24,10 @@ router.get('/products_bycategory/:category', (req, res) =>{
     
     if(category > 0 && category <= 7){
         try {
-            mysqlConnection.query('SELECT * FROM bsale_test.product WHERE category = ?', [category], (err, rows) =>{
+
+            let query = 'SELECT * FROM bsale_test.product WHERE category = ?'
+
+            mysqlConnection.query(query, [category], (err, rows) =>{
             
                 if(!err){
                     res.json(rows);
@@ -46,7 +51,9 @@ router.get('/products_byname/:nameCat', (req, res) =>{
     const { nameCat } = req.params;
 
     try {
-        mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ?", ['%'+nameCat+'%'], (err, rows) =>{
+        let query = "SELECT * FROM bsale_test.product WHERE name LIKE ?"
+
+        mysqlConnection.query(query, ['%'+nameCat+'%'], (err, rows) =>{
         
             if(!err){
                 res.json(rows);
@@ -71,7 +78,9 @@ router.get('/products/:num1/:num2', (req, res) =>{
         const limit = parseInt(num2, 10);
 
         try {
-            mysqlConnection.query('SELECT * FROM bsale_test.product LIMIT ?,?', [init, limit], (err, rows) =>{
+            let query = 'SELECT * FROM bsale_test.product LIMIT ?,?'
+
+            mysqlConnection.query(query, [init, limit], (err, rows) =>{
             
                 if(!err){
                     res.json(rows);
@@ -100,7 +109,9 @@ router.get('/products_bycategory/:category/:num1/:num2', (req, res) =>{
             const limit = parseInt(num2, 10);
 
             try {
-                mysqlConnection.query('SELECT * FROM bsale_test.product WHERE category = ? LIMIT ?,?', [category, init, limit], (err, rows) =>{
+                let query = 'SELECT * FROM bsale_test.product WHERE category = ? LIMIT ?,?'
+
+                mysqlConnection.query(query, [category, init, limit], (err, rows) =>{
                     
                     if(!err){
                         res.json(rows);
@@ -133,7 +144,9 @@ router.get('/products_byname/:nameCat/:num1/:num2', (req, res) =>{
         const limit = parseInt(num2, 10);
 
         try {
-            mysqlConnection.query("SELECT * FROM bsale_test.product WHERE name LIKE ? LIMIT ?,?", ['%'+nameCat+'%', init, limit], (err, rows) =>{
+            let query = "SELECT * FROM bsale_test.product WHERE name LIKE ? LIMIT ?,?"
+
+            mysqlConnection.query(query, ['%'+nameCat+'%', init, limit], (err, rows) =>{
             
                 if(!err){
                     res.json(rows);
