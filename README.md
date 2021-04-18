@@ -126,18 +126,17 @@ OUTPUT:
 los siguientes endpoints realizan las mismas acciones que los endpoint anteriores, pero en este caso, se le agregan nuevos parametros que iran como valor de la clausula LIMIT del lenguaje SQL. Estos valoren son importantes para que la aplicacion cliente pueda crear el paginador de productos de manera dinamica. <br/>
 
 ## 4- /products/:num1/:num2 
-    
-## 5- /products_bycategory/:category/:num1/:num2
-
-## 6- /products_byname/:nameCat/:num1/:num2 
-<br/>
-<br/>
-
-Por ejemplo, si quisieras buscar todos los productos pero con un limite de 15 productos, partiendo desde el primer prodcuto encontrado, el endpoint quedaria de la siguiente forma: 
+Si quisieras buscar todos los productos pero con un limite de 15 productos, partiendo desde el primer prodcuto encontrado, el endpoint quedaria de la siguiente forma
 #### ej: /products/0/15
 
-Si quisieras buscar todos los productos con un limite de 8 productos, partiendo desde el tercer producto, el endpoint quedaria de la siguiente forma:
-#### ej: /products/3/8
+## 5- /products_bycategory/:category/:num1/:num2
+Si quisieras buscar todos los productos de la categoria 2 (pisco), con un limite de 8 productos, partiendo desde el tercer producto, el endpoint quedaria de la siguiente forma
+#### ej: /products_bycategory/2/3/8
+
+## 6- /products_byname/:nameCat/:num1/:num2 
+Si quisieras buscar todos los productos que contengan en su nombre la palabra "sprite", con un limite de 2 productos, partiendo desde el primer producto, el endpoint quedaria de la siguiente forma
+#### ej: /products_byname/sprite/0/2
+
 
 
 
