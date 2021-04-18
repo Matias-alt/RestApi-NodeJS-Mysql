@@ -130,12 +130,14 @@ los siguientes endpoints realizan las mismas acciones que los endpoint anteriore
 ## 5- /products_bycategory/:category/:num1/:num2
 
 ## 6- /products_byname/:nameCat/:num1/:num2 
+<br/>
+<br/>
 
 Por ejemplo, si quisieras buscar todos los productos pero con un limite de 15 productos, partiendo desde el primer prodcuto encontrado, el endpoint quedaria de la siguiente forma: 
-### ej: /products/0/15
+#### ej: /products/0/15
 
 Si quisieras buscar todos los productos con un limite de 8 productos, partiendo desde el tercer producto, el endpoint quedaria de la siguiente forma:
-### ej: /products/3/8
+#### ej: /products/3/8
 
 
 
