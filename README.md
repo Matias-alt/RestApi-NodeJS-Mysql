@@ -21,10 +21,7 @@ Se utilizo una dependencia de desarrollo, ***"nodemon"*** en su version 2.0.7, p
 
 #### Sql-injection
 Se utilizo el modulo ***"sql-injection"*** en su version 0.0.6 para evitar las inyecciones SQL. Este módulo detecta los ataques de inyección SQL y los detiene enviando 403 como respuesta. El módulo comprueba la cadena de consulta, los parámetros de ruta y el cuerpo en busca de contenido relacionado con la inyección SQL.
-
 <br/>
-<br/>
-
 ### Desarrollo 
 En el archivo index.js se definen unas secciones basicas para el correcto funcionamiento, tales como Cors, Settings, Middleware Y Routes
 
